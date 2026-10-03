@@ -1,0 +1,2 @@
+scenario,prb_policy,iperf_sender_mbps,iperf_receiver_mbps,tcp_retransmissions,packet_loss_percent,rtt_min_ms,rtt_avg_ms,rtt_max_ms,rtt_mdev_ms
+static_prb,30,2.52,2.41,164,2.33333,16.09,861.089,1094.98,231.954

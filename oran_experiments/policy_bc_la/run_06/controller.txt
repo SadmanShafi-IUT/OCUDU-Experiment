@@ -1,0 +1,1210 @@
+1790486511189 7237/RMR [INFO] ric message routing library on SI95 p=4562 mv=3 flg=00 id=a (f447e29 4.9.4 built: Dec 13 2023)
+
+==============================================
+Policy B+C+Load-Aware Controller
+==============================================
+Initial PRB       : 30%
+Throughput target : 5000.0
+Window size       : 5
+High utilization  : 85.0%
+Low utilization   : 45.0%
+UP requirement    : 3 samples
+DOWN requirement  : 5 samples
+Cooldown           : 5.0 s
+==============================================
+
+Applying initial PRB quota: 30%
+Successfully subscribed with Subscription ID:  3JthwqMttLM0oxcHaIJXnhAD59z
+Received Subscription ID to E2EventInstanceId mapping: 3JthwqMttLM0oxcHaIJXnhAD59z -> 71
+{'response': 'OK', 'status': 200, 'payload': '{}', 'ctype': 'application/json', 'attachment': None, 'mode': 'plain'}
+10.0.2.13 - - [27/Sep/2026 05:21:52] "POST /ric/v1/subscriptions/response HTTP/1.1" 200 -
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:53
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+Controller warming up: 1/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:54
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+Controller warming up: 2/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:55
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+Controller warming up: 3/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:56
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+Controller warming up: 4/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:57
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [5.0]
+
+CTRL | PRB=30%, THP_AVG=7.00, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 1/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:58
+--Metric: DRB.UEThpUl, Value: [8.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=7.20, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 2/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:21:59
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=7.20, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 3/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:00
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=7.20, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 4/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:01
+--Metric: DRB.UEThpUl, Value: [11.0]
+--Metric: DRB.UEThpDl, Value: [11.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=8.00, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 5/5
+CTRL | HOLD at minimum PRB
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:02
+--Metric: DRB.UEThpUl, Value: [864.0]
+--Metric: DRB.UEThpDl, Value: [45.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=179.40, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 1/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:03
+--Metric: DRB.UEThpUl, Value: [2444.0]
+--Metric: DRB.UEThpDl, Value: [75.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=666.60, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 2/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:04
+--Metric: DRB.UEThpUl, Value: [2604.0]
+--Metric: DRB.UEThpDl, Value: [73.0]
+--Metric: RRU.PrbUsedUl, Value: [0.0]
+--Metric: RRU.PrbAvailUl, Value: [52.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [4.0]
+
+CTRL | PRB=30%, THP_AVG=1186.00, PRB_USED_AVG=0.00, PRB_ALLOWED=16, UTIL=0.0%
+CTRL | DOWN condition 3/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:05
+--Metric: DRB.UEThpUl, Value: [2639.0]
+--Metric: DRB.UEThpDl, Value: [75.0]
+--Metric: RRU.PrbUsedUl, Value: [7.0]
+--Metric: RRU.PrbAvailUl, Value: [45.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=1712.40, PRB_USED_AVG=1.40, PRB_ALLOWED=16, UTIL=8.8%
+CTRL | DOWN condition 4/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:06
+--Metric: DRB.UEThpUl, Value: [2624.0]
+--Metric: DRB.UEThpDl, Value: [75.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2235.00, PRB_USED_AVG=4.20, PRB_ALLOWED=16, UTIL=26.2%
+CTRL | DOWN condition 5/5
+CTRL | HOLD at minimum PRB
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:07
+--Metric: DRB.UEThpUl, Value: [2610.0]
+--Metric: DRB.UEThpDl, Value: [75.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2584.20, PRB_USED_AVG=7.00, PRB_ALLOWED=16, UTIL=43.8%
+CTRL | DOWN condition 1/5
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:08
+--Metric: DRB.UEThpUl, Value: [2635.0]
+--Metric: DRB.UEThpDl, Value: [76.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2622.40, PRB_USED_AVG=9.80, PRB_ALLOWED=16, UTIL=61.3%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:09
+--Metric: DRB.UEThpUl, Value: [2602.0]
+--Metric: DRB.UEThpDl, Value: [85.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2622.00, PRB_USED_AVG=12.60, PRB_ALLOWED=16, UTIL=78.8%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:10
+--Metric: DRB.UEThpUl, Value: [2601.0]
+--Metric: DRB.UEThpDl, Value: [74.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2614.40, PRB_USED_AVG=14.00, PRB_ALLOWED=16, UTIL=87.5%
+CTRL | UP condition 1/3
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:11
+--Metric: DRB.UEThpUl, Value: [2641.0]
+--Metric: DRB.UEThpDl, Value: [83.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2617.80, PRB_USED_AVG=14.00, PRB_ALLOWED=16, UTIL=87.5%
+CTRL | UP condition 2/3
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:12
+--Metric: DRB.UEThpUl, Value: [2602.0]
+--Metric: DRB.UEThpDl, Value: [137.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+
+CTRL | PRB=30%, THP_AVG=2616.20, PRB_USED_AVG=14.00, PRB_ALLOWED=16, UTIL=87.5%
+CTRL | UP condition 3/3
+
+==============================================
+ADAPTIVE CONTROL: 30% -> 50%
+Reason: HIGH_LOAD_LOW_THROUGHPUT
+==============================================
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:13
+--Metric: DRB.UEThpUl, Value: [3629.0]
+--Metric: DRB.UEThpDl, Value: [232.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+Controller warming up: 1/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:14
+--Metric: DRB.UEThpUl, Value: [4400.0]
+--Metric: DRB.UEThpDl, Value: [151.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+Controller warming up: 2/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:15
+--Metric: DRB.UEThpUl, Value: [4386.0]
+--Metric: DRB.UEThpDl, Value: [218.0]
+--Metric: RRU.PrbUsedUl, Value: [14.0]
+--Metric: RRU.PrbAvailUl, Value: [38.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+Controller warming up: 3/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:16
+--Metric: DRB.UEThpUl, Value: [4385.0]
+--Metric: DRB.UEThpDl, Value: [261.0]
+--Metric: RRU.PrbUsedUl, Value: [22.0]
+--Metric: RRU.PrbAvailUl, Value: [30.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [3.0]
+Controller warming up: 4/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:17
+--Metric: DRB.UEThpUl, Value: [4392.0]
+--Metric: DRB.UEThpDl, Value: [128.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+
+CTRL | PRB=50%, THP_AVG=4238.40, PRB_USED_AVG=17.80, PRB_ALLOWED=26, UTIL=68.5%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:18
+--Metric: DRB.UEThpUl, Value: [4369.0]
+--Metric: DRB.UEThpDl, Value: [108.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+
+CTRL | PRB=50%, THP_AVG=4386.40, PRB_USED_AVG=20.00, PRB_ALLOWED=26, UTIL=76.9%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:19
+--Metric: DRB.UEThpUl, Value: [4340.0]
+--Metric: DRB.UEThpDl, Value: [110.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+
+CTRL | PRB=50%, THP_AVG=4374.40, PRB_USED_AVG=22.20, PRB_ALLOWED=26, UTIL=85.4%
+CTRL | UP condition 1/3
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:20
+--Metric: DRB.UEThpUl, Value: [4399.0]
+--Metric: DRB.UEThpDl, Value: [110.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+
+CTRL | PRB=50%, THP_AVG=4377.00, PRB_USED_AVG=24.40, PRB_ALLOWED=26, UTIL=93.8%
+CTRL | UP condition 2/3
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:21
+--Metric: DRB.UEThpUl, Value: [4369.0]
+--Metric: DRB.UEThpDl, Value: [111.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+
+CTRL | PRB=50%, THP_AVG=4373.80, PRB_USED_AVG=25.00, PRB_ALLOWED=26, UTIL=96.2%
+CTRL | UP condition 3/3
+
+==============================================
+ADAPTIVE CONTROL: 50% -> 70%
+Reason: HIGH_LOAD_LOW_THROUGHPUT
+==============================================
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:23
+--Metric: DRB.UEThpUl, Value: [5254.0]
+--Metric: DRB.UEThpDl, Value: [132.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+Controller warming up: 1/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:24
+--Metric: DRB.UEThpUl, Value: [5986.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+Controller warming up: 2/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:25
+--Metric: DRB.UEThpUl, Value: [5980.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [25.0]
+--Metric: RRU.PrbAvailUl, Value: [27.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+Controller warming up: 3/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:26
+--Metric: DRB.UEThpUl, Value: [6002.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [32.0]
+--Metric: RRU.PrbAvailUl, Value: [20.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [2.0]
+Controller warming up: 4/5 samples
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:27
+--Metric: DRB.UEThpUl, Value: [5986.0]
+--Metric: DRB.UEThpDl, Value: [314.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5841.60, PRB_USED_AVG=28.40, PRB_ALLOWED=36, UTIL=78.9%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:28
+--Metric: DRB.UEThpUl, Value: [6024.0]
+--Metric: DRB.UEThpDl, Value: [140.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5995.60, PRB_USED_AVG=30.40, PRB_ALLOWED=36, UTIL=84.4%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:29
+--Metric: DRB.UEThpUl, Value: [5961.0]
+--Metric: DRB.UEThpDl, Value: [139.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5990.60, PRB_USED_AVG=32.40, PRB_ALLOWED=36, UTIL=90.0%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:30
+--Metric: DRB.UEThpUl, Value: [6003.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5995.20, PRB_USED_AVG=34.40, PRB_ALLOWED=36, UTIL=95.6%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:31
+--Metric: DRB.UEThpUl, Value: [6013.0]
+--Metric: DRB.UEThpDl, Value: [224.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5997.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:32
+--Metric: DRB.UEThpUl, Value: [6012.0]
+--Metric: DRB.UEThpDl, Value: [190.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:33
+--Metric: DRB.UEThpUl, Value: [6007.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5999.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:34
+--Metric: DRB.UEThpUl, Value: [5989.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6004.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:35
+--Metric: DRB.UEThpUl, Value: [5987.0]
+--Metric: DRB.UEThpDl, Value: [141.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6001.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:36
+--Metric: DRB.UEThpUl, Value: [6016.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:37
+--Metric: DRB.UEThpUl, Value: [6002.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6000.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:38
+--Metric: DRB.UEThpUl, Value: [6019.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:39
+--Metric: DRB.UEThpUl, Value: [5974.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5999.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:40
+--Metric: DRB.UEThpUl, Value: [6002.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:41
+--Metric: DRB.UEThpUl, Value: [5996.0]
+--Metric: DRB.UEThpDl, Value: [161.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5998.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:42
+--Metric: DRB.UEThpUl, Value: [5982.0]
+--Metric: DRB.UEThpDl, Value: [274.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5994.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:43
+--Metric: DRB.UEThpUl, Value: [6025.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5995.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:44
+--Metric: DRB.UEThpUl, Value: [6008.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:45
+--Metric: DRB.UEThpUl, Value: [5990.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6000.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:46
+--Metric: DRB.UEThpUl, Value: [6006.0]
+--Metric: DRB.UEThpDl, Value: [283.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:47
+--Metric: DRB.UEThpUl, Value: [6002.0]
+--Metric: DRB.UEThpDl, Value: [141.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6006.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:48
+--Metric: DRB.UEThpUl, Value: [6012.0]
+--Metric: DRB.UEThpDl, Value: [149.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6003.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:49
+--Metric: DRB.UEThpUl, Value: [6003.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:50
+--Metric: DRB.UEThpUl, Value: [6006.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6005.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:51
+--Metric: DRB.UEThpUl, Value: [6023.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6009.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:52
+--Metric: DRB.UEThpUl, Value: [5986.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6006.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:53
+--Metric: DRB.UEThpUl, Value: [5947.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5993.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:54
+--Metric: DRB.UEThpUl, Value: [5946.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5981.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:55
+--Metric: DRB.UEThpUl, Value: [6031.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5986.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:56
+--Metric: DRB.UEThpUl, Value: [5974.0]
+--Metric: DRB.UEThpDl, Value: [236.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5976.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:58
+--Metric: DRB.UEThpUl, Value: [6010.0]
+--Metric: DRB.UEThpDl, Value: [218.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5981.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:22:59
+--Metric: DRB.UEThpUl, Value: [6014.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5995.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:00
+--Metric: DRB.UEThpUl, Value: [6013.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6008.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:01
+--Metric: DRB.UEThpUl, Value: [5996.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6001.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:02
+--Metric: DRB.UEThpUl, Value: [6014.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6009.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:03
+--Metric: DRB.UEThpUl, Value: [6003.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6008.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:04
+--Metric: DRB.UEThpUl, Value: [6030.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6011.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:05
+--Metric: DRB.UEThpUl, Value: [6015.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6011.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:06
+--Metric: DRB.UEThpUl, Value: [6025.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6017.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:07
+--Metric: DRB.UEThpUl, Value: [6006.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6015.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:08
+--Metric: DRB.UEThpUl, Value: [6006.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6016.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:09
+--Metric: DRB.UEThpUl, Value: [6005.0]
+--Metric: DRB.UEThpDl, Value: [221.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6011.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:10
+--Metric: DRB.UEThpUl, Value: [5992.0]
+--Metric: DRB.UEThpDl, Value: [233.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6006.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:11
+--Metric: DRB.UEThpUl, Value: [5994.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6000.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:12
+--Metric: DRB.UEThpUl, Value: [6024.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6004.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:13
+--Metric: DRB.UEThpUl, Value: [5975.0]
+--Metric: DRB.UEThpDl, Value: [270.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5998.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:14
+--Metric: DRB.UEThpUl, Value: [6011.0]
+--Metric: DRB.UEThpDl, Value: [149.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5999.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:15
+--Metric: DRB.UEThpUl, Value: [6024.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6005.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:16
+--Metric: DRB.UEThpUl, Value: [6023.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6011.40, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:17
+--Metric: DRB.UEThpUl, Value: [6022.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6011.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:18
+--Metric: DRB.UEThpUl, Value: [6024.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6020.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:19
+--Metric: DRB.UEThpUl, Value: [6022.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6023.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:20
+--Metric: DRB.UEThpUl, Value: [6023.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6022.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:21
+--Metric: DRB.UEThpUl, Value: [5998.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6017.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:22
+--Metric: DRB.UEThpUl, Value: [6009.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6015.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:23
+--Metric: DRB.UEThpUl, Value: [5998.0]
+--Metric: DRB.UEThpDl, Value: [228.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6010.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:24
+--Metric: DRB.UEThpUl, Value: [5981.0]
+--Metric: DRB.UEThpDl, Value: [216.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6001.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:25
+--Metric: DRB.UEThpUl, Value: [5979.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5993.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:26
+--Metric: DRB.UEThpUl, Value: [6014.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5996.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:27
+--Metric: DRB.UEThpUl, Value: [6011.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5996.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:28
+--Metric: DRB.UEThpUl, Value: [6000.0]
+--Metric: DRB.UEThpDl, Value: [288.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5997.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:29
+--Metric: DRB.UEThpUl, Value: [6006.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6002.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:30
+--Metric: DRB.UEThpUl, Value: [6003.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6006.80, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:31
+--Metric: DRB.UEThpUl, Value: [6011.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=6006.20, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:33
+--Metric: DRB.UEThpUl, Value: [5650.0]
+--Metric: DRB.UEThpDl, Value: [174.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=5934.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | HOLD
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:34
+--Metric: DRB.UEThpUl, Value: [8.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=4735.60, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | UP condition 1/3
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 71
+-ColletStartTime: 2026-09-27 05:23:35
+--Metric: DRB.UEThpUl, Value: [8.0]
+--Metric: DRB.UEThpDl, Value: [8.0]
+--Metric: RRU.PrbUsedUl, Value: [35.0]
+--Metric: RRU.PrbAvailUl, Value: [17.0]
+--Metric: CQI, Value: [15.0]
+--Metric: RSRP, Value: [1.0]
+
+CTRL | PRB=70%, THP_AVG=3536.00, PRB_USED_AVG=35.00, PRB_ALLOWED=36, UTIL=97.2%
+CTRL | UP condition 2/3
+Unsubscribe Subscription ID:  3JthwqMttLM0oxcHaIJXnhAD59z
+Successfully unsubscribed from Subscription ID:  3JthwqMttLM0oxcHaIJXnhAD59z

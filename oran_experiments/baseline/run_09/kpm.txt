@@ -1,0 +1,974 @@
+1790470493188 497/RMR [INFO] ric message routing library on SI95 p=4562 mv=3 flg=00 id=a (f447e29 4.9.4 built: Dec 13 2023)
+Subscribe to E2 node ID: gnbd_001_001_00019b_0, RAN func: e2sm_kpm, Report Style: 1, metrics: ['DRB.UEThpUl', 'DRB.UEThpDl', 'RRU.PrbUsedUl', 'RRU.PrbUsedDl', 'RRU.PrbAvailUl', 'RRU.PrbAvailDl', 'CQI', 'RSRP']
+Successfully subscribed with Subscription ID:  3JtBTtc6fIdBXwZHicaRSPIrXqR
+Received Subscription ID to E2EventInstanceId mapping: 3JtBTtc6fIdBXwZHicaRSPIrXqR -> 8
+{'response': 'OK', 'status': 200, 'payload': '{}', 'ctype': 'application/json', 'attachment': None, 'mode': 'plain'}
+10.0.2.13 - - [27/Sep/2026 00:54:54] "POST /ric/v1/subscriptions/response HTTP/1.1" 200 -
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:54:55
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:54:56
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [8.0]
+--Metric: DRB.UEThpDl, Value: [8.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:54:57
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:54:58
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:54:59
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:00
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:01
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:02
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [3143.0]
+--Metric: DRB.UEThpDl, Value: [100.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:03
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [4965.0]
+--Metric: DRB.UEThpDl, Value: [129.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:04
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5772.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [0]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [52]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [4]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:05
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5825.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [44]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [8]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:06
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5818.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:07
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5677.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:08
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5551.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:09
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5797.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:10
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6065.0]
+--Metric: DRB.UEThpDl, Value: [161.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:11
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6098.0]
+--Metric: DRB.UEThpDl, Value: [281.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:12
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5885.0]
+--Metric: DRB.UEThpDl, Value: [240.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:13
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6162.0]
+--Metric: DRB.UEThpDl, Value: [271.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:14
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6226.0]
+--Metric: DRB.UEThpDl, Value: [293.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:15
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6192.0]
+--Metric: DRB.UEThpDl, Value: [166.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:16
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6033.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:17
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5948.0]
+--Metric: DRB.UEThpDl, Value: [139.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:18
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6125.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:19
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6169.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:20
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6158.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:21
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6077.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:22
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5760.0]
+--Metric: DRB.UEThpDl, Value: [137.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:23
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5915.0]
+--Metric: DRB.UEThpDl, Value: [140.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:24
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6005.0]
+--Metric: DRB.UEThpDl, Value: [202.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:25
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6163.0]
+--Metric: DRB.UEThpDl, Value: [235.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:26
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5894.0]
+--Metric: DRB.UEThpDl, Value: [138.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:27
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6020.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:29
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6150.0]
+--Metric: DRB.UEThpDl, Value: [155.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:30
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6238.0]
+--Metric: DRB.UEThpDl, Value: [257.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:31
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6220.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:32
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6136.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:33
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6062.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:34
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6219.0]
+--Metric: DRB.UEThpDl, Value: [150.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:35
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6080.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:36
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5892.0]
+--Metric: DRB.UEThpDl, Value: [143.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:37
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5897.0]
+--Metric: DRB.UEThpDl, Value: [142.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:38
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6128.0]
+--Metric: DRB.UEThpDl, Value: [150.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:39
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6225.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:40
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6135.0]
+--Metric: DRB.UEThpDl, Value: [249.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:41
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6066.0]
+--Metric: DRB.UEThpDl, Value: [173.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:42
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6169.0]
+--Metric: DRB.UEThpDl, Value: [150.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:43
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5978.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:44
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6177.0]
+--Metric: DRB.UEThpDl, Value: [193.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:45
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6209.0]
+--Metric: DRB.UEThpDl, Value: [223.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:46
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6172.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:47
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6181.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:48
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6226.0]
+--Metric: DRB.UEThpDl, Value: [148.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:49
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6189.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:50
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6215.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:51
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6174.0]
+--Metric: DRB.UEThpDl, Value: [141.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:52
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6125.0]
+--Metric: DRB.UEThpDl, Value: [141.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:53
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6172.0]
+--Metric: DRB.UEThpDl, Value: [144.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:54
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6193.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:55
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5968.0]
+--Metric: DRB.UEThpDl, Value: [273.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:56
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6063.0]
+--Metric: DRB.UEThpDl, Value: [145.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:57
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6228.0]
+--Metric: DRB.UEThpDl, Value: [147.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:58
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6175.0]
+--Metric: DRB.UEThpDl, Value: [146.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [1]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [51]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:55:59
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [6157.0]
+--Metric: DRB.UEThpDl, Value: [231.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:56:00
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5988.0]
+--Metric: DRB.UEThpDl, Value: [174.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:56:01
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [5834.0]
+--Metric: DRB.UEThpDl, Value: [139.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:56:02
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [4575.0]
+--Metric: DRB.UEThpDl, Value: [152.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:56:03
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+
+RIC Indication Received from gnbd_001_001_00019b_0 for Subscription ID: 8, KPM Report Style: 1
+E2SM_KPM RIC Indication Content:
+-ColletStartTime:  2026-09-27 00:56:04
+-Measurements Data:
+-granulPeriod: 1000
+--Metric: DRB.UEThpUl, Value: [7.0]
+--Metric: DRB.UEThpDl, Value: [7.0]
+--Metric: RRU.PrbUsedUl, Value: [50]
+--Metric: RRU.PrbUsedDl, Value: [0]
+--Metric: RRU.PrbAvailUl, Value: [2]
+--Metric: RRU.PrbAvailDl, Value: [52]
+--Metric: CQI, Value: [15]
+--Metric: RSRP, Value: [0]
+Unsubscribe Subscription ID:  3JtBTtc6fIdBXwZHicaRSPIrXqR
+Successfully unsubscribed from Subscription ID:  3JtBTtc6fIdBXwZHicaRSPIrXqR

@@ -1,0 +1,3 @@
+Policy,Total_actions,UP_actions,DOWN_actions,Mean_inter_action_time_s,Median_inter_action_time_s,Min_inter_action_time_s,Mean_absolute_quota_change_pct,Max_absolute_quota_change_pct
+Policy A,130,65,65,4.108527131782946,2.0,2.0,22.0,30
+Policy B,27,14,13,20.653846153846153,13.0,7.0,21.48148148148148,30

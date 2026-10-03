@@ -1,0 +1,62 @@
+=== POLICY B+C+LOAD-AWARE RESULTS ===
+
+iperf_receiver_mbps
+  Mean = 4.975
+  Std  = 0.015
+  Min  = 4.950
+  Max  = 5.000
+
+tcp_retransmissions
+  Mean = 186.400
+  Std  = 11.740
+  Min  = 165.000
+  Max  = 206.000
+
+packet_loss_percent
+  Mean = 0.911
+  Std  = 0.208
+  Min  = 0.444
+  Max  = 1.111
+
+rtt_avg_ms
+  Mean = 434.493
+  Std  = 9.179
+  Min  = 417.651
+  Max  = 445.471
+
+avg_prb_percent
+  Mean = 62.826
+  Std  = 0.183
+  Min  = 62.444
+  Max  = 63.034
+
+avg_prb_used
+  Mean = 29.849
+  Std  = 0.214
+  Min  = 29.422
+  Max  = 30.135
+
+num_control_actions
+  Mean = 2.000
+  Std  = 0.000
+  Min  = 2.000
+  Max  = 2.000
+
+num_up_actions
+  Mean = 2.000
+  Std  = 0.000
+  Min  = 2.000
+  Max  = 2.000
+
+num_down_actions
+  Mean = 0.000
+  Std  = 0.000
+  Min  = 0.000
+  Max  = 0.000
+
+qos_violation_percent
+  Mean = 24.213
+  Std  = 1.032
+  Min  = 22.472
+  Max  = 25.556
+

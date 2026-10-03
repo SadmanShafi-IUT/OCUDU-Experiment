@@ -1,0 +1,3 @@
+1790473706505 3208/RMR [INFO] ric message routing library on SI95 p=4560 mv=3 flg=00 id=a (f447e29 4.9.4 built: Dec 13 2023)
+01:48:27 Send FIXED RIC Control Request to E2 node ID: gnbd_001_001_00019b_0 for UE ID: 0, PRB_min_ratio: 10, PRB_max_ratio: 50
+Received RIC_CONTROL_ACK

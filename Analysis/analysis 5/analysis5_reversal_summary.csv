@@ -1,0 +1,3 @@
+Policy,Total_reversals,Rapid_reversals_le_10s,Rapid_reversal_fraction_of_actions_pct
+Policy A,104,94,72.3076923076923
+Policy B,17,1,3.7037037037037037

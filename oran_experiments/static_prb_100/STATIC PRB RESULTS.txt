@@ -1,0 +1,26 @@
+=== STATIC PRB RESULTS ===
+
+PRB = 30%
+  iperf_receiver_mbps: mean=2.398, std=0.010
+  tcp_retransmissions: mean=164.800, std=16.267
+  packet_loss_percent: mean=2.400, std=0.644
+  rtt_avg_ms: mean=854.097, std=12.796
+
+PRB = 50%
+  iperf_receiver_mbps: mean=4.008, std=0.015
+  tcp_retransmissions: mean=122.400, std=5.038
+  packet_loss_percent: mean=1.583, std=0.523
+  rtt_avg_ms: mean=532.499, std=6.169
+
+PRB = 70%
+  iperf_receiver_mbps: mean=5.509, std=0.010
+  tcp_retransmissions: mean=97.100, std=6.691
+  packet_loss_percent: mean=0.650, std=0.364
+  rtt_avg_ms: mean=389.082, std=7.184
+
+PRB = 100%
+  iperf_receiver_mbps: mean=5.529, std=0.070
+  tcp_retransmissions: mean=96.200, std=4.417
+  packet_loss_percent: mean=0.817, std=0.288
+  rtt_avg_ms: mean=389.252, std=5.510
+

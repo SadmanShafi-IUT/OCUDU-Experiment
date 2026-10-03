@@ -1,0 +1,491 @@
+1790481673269 6117/RMR [INFO] ric message routing library on SI95 p=4562 mv=3 flg=00 id=a (f447e29 4.9.4 built: Dec 13 2023)
+Applying initial PRB: 30%
+Successfully subscribed with Subscription ID:  3JtY8qJMUnUwTlJNzj2lD7rKz6R
+Received Subscription ID to E2EventInstanceId mapping: 3JtY8qJMUnUwTlJNzj2lD7rKz6R -> 56
+{'response': 'OK', 'status': 200, 'payload': '{}', 'ctype': 'application/json', 'attachment': None, 'mode': 'plain'}
+10.0.2.13 - - [27/Sep/2026 04:01:14] "POST /ric/v1/subscriptions/response HTTP/1.1" 200 -
+
+RIC Indication | 2026-09-27 04:01:15 | THP=7.0 PRB_USED=0.0 POLICY=30%
+POLICY A | PRB=30%, THP=7.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:16 | THP=7.0 PRB_USED=0.0 POLICY=30%
+
+==========================================
+POLICY A CONTROL: 30% -> 50%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:17 | THP=7.0 PRB_USED=0.0 POLICY=50%
+POLICY A | PRB=50%, THP=7.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:18 | THP=8.0 PRB_USED=0.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:19 | THP=7.0 PRB_USED=0.0 POLICY=70%
+POLICY A | PRB=70%, THP=7.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:20 | THP=1086.0 PRB_USED=0.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 100%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:21 | THP=4130.0 PRB_USED=0.0 POLICY=100%
+POLICY A | PRB=100%, THP=4130.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:22 | THP=5238.0 PRB_USED=0.0 POLICY=100%
+
+==========================================
+POLICY A CONTROL: 100% -> 70%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:23 | THP=5583.0 PRB_USED=14.0 POLICY=70%
+POLICY A | PRB=70%, THP=5583.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:24 | THP=5892.0 PRB_USED=44.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:25 | THP=5146.0 PRB_USED=50.0 POLICY=50%
+POLICY A | PRB=50%, THP=5146.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:26 | THP=4387.0 PRB_USED=41.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:27 | THP=4893.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=4893.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:28 | THP=5884.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:29 | THP=5164.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5164.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:30 | THP=4384.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:31 | THP=5117.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5117.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:32 | THP=5994.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:33 | THP=5139.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5139.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:34 | THP=4380.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:35 | THP=5020.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5020.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:36 | THP=5960.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:37 | THP=5149.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5149.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:38 | THP=4370.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:39 | THP=5144.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5144.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:40 | THP=6004.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:41 | THP=5148.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5148.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:42 | THP=4375.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:44 | THP=5142.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5142.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:45 | THP=5989.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:46 | THP=5169.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5169.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:47 | THP=4358.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:48 | THP=5083.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5083.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:49 | THP=5968.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:50 | THP=5185.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5185.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:51 | THP=4368.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:52 | THP=5080.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5080.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:53 | THP=6006.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:54 | THP=5149.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5149.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:55 | THP=4379.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:56 | THP=5095.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5095.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:57 | THP=5969.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:01:58 | THP=5155.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5155.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:01:59 | THP=4377.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:00 | THP=5148.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5148.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:01 | THP=6016.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:02 | THP=5149.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5149.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:03 | THP=4389.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:04 | THP=5032.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5032.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:05 | THP=5994.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:06 | THP=5145.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5145.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:07 | THP=4380.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:08 | THP=5075.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5075.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:09 | THP=5997.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:10 | THP=5141.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5141.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:11 | THP=4388.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:12 | THP=5114.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5114.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:13 | THP=5959.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:14 | THP=5139.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5139.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:15 | THP=4393.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:16 | THP=5084.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5084.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:17 | THP=6001.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:18 | THP=5149.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5149.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:19 | THP=4381.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:20 | THP=4958.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=4958.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:21 | THP=5964.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:22 | THP=5140.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5140.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:23 | THP=4356.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:24 | THP=5044.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5044.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:25 | THP=6003.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:26 | THP=5149.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5149.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:27 | THP=4373.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:28 | THP=5068.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5068.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:29 | THP=6008.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:31 | THP=5122.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5122.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:32 | THP=4391.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:33 | THP=4887.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=4887.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:34 | THP=5900.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:35 | THP=5151.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5151.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:36 | THP=4379.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:37 | THP=4959.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=4959.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:38 | THP=5951.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:39 | THP=5148.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5148.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:40 | THP=4393.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:41 | THP=5080.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5080.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:42 | THP=5988.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:43 | THP=5152.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5152.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:44 | THP=4371.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:45 | THP=5198.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5198.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:46 | THP=5992.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:47 | THP=5148.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=5148.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:48 | THP=4388.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:49 | THP=5034.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=5034.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:50 | THP=5976.0 PRB_USED=29.0 POLICY=70%
+
+==========================================
+POLICY A CONTROL: 70% -> 50%
+Reason: THP_ABOVE_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:51 | THP=4076.0 PRB_USED=25.0 POLICY=50%
+POLICY A | PRB=50%, THP=4076.0 | HOLD cooldown
+
+RIC Indication | 2026-09-27 04:02:52 | THP=8.0 PRB_USED=31.0 POLICY=50%
+
+==========================================
+POLICY A CONTROL: 50% -> 70%
+Reason: THP_BELOW_TARGET
+==========================================
+
+RIC Indication | 2026-09-27 04:02:53 | THP=7.0 PRB_USED=35.0 POLICY=70%
+POLICY A | PRB=70%, THP=7.0 | HOLD cooldown
+Unsubscribe Subscription ID:  3JtY8qJMUnUwTlJNzj2lD7rKz6R
+Successfully unsubscribed from Subscription ID:  3JtY8qJMUnUwTlJNzj2lD7rKz6R

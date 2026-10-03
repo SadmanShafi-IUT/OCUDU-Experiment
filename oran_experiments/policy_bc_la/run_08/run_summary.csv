@@ -1,0 +1,2 @@
+policy,iperf_sender_mbps,iperf_receiver_mbps,tcp_retransmissions,packet_loss_percent,rtt_min_ms,rtt_avg_ms,rtt_max_ms,rtt_mdev_ms,avg_prb_percent,avg_prb_used,avg_kpm_throughput_raw,num_control_actions,num_up_actions,num_down_actions,pct_time_prb_30,pct_time_prb_50,pct_time_prb_70,pct_time_prb_100,qos_violation_percent,traffic_kpm_samples
+policy_bc_la,5.08,4.98,165,0.888889,10.848,425.104,1118.425,129.299,62.44444444444444,29.42222222222222,5272.233333333334,2,2,0,13.333333333333334,11.11111111111111,75.55555555555556,0.0,25.555555555555554,90

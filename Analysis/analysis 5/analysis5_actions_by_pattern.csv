@@ -1,0 +1,11 @@
+Policy,Traffic_pattern,Control_actions
+Policy A,constant,44
+Policy A,step,32
+Policy A,bursty,33
+Policy A,random,21
+Policy A,idle,0
+Policy B,constant,2
+Policy B,step,2
+Policy B,bursty,11
+Policy B,random,9
+Policy B,idle,3

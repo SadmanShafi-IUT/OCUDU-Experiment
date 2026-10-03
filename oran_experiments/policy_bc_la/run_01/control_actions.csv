@@ -1,0 +1,3 @@
+timestamp,old_prb_percent,new_prb_percent,avg_throughput_raw,avg_prb_used,prb_allowed,utilization_percent,reason
+2026-09-27 05:07:34,30,50,2610.0,14.0,16,87.5,HIGH_LOAD_LOW_THROUGHPUT
+2026-09-27 05:07:45,50,70,4379.8,25.0,26,96.15384615384616,HIGH_LOAD_LOW_THROUGHPUT

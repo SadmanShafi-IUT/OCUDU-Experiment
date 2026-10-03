@@ -1,0 +1,3 @@
+Policy,Mean_PRB_quota_percent,Std_PRB_quota_percent,Min_PRB_quota_percent,Max_PRB_quota_percent
+Policy A,82.3495145631068,20.416723107509586,50,100
+Policy B,61.800391389432484,18.393500552956546,30,100

@@ -1,0 +1,2 @@
+policy,iperf_sender_mbps,iperf_receiver_mbps,tcp_retransmissions,packet_loss_percent,rtt_avg_ms,avg_prb_percent,avg_kpm_throughput_raw,num_control_actions
+policy_a,4.85,4.76,161,0.777778,459.8,61.649484536082475,4704.907216494846,47

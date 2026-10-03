@@ -1,0 +1,39 @@
+=== POLICY A RESULTS ===
+
+iperf_receiver_mbps
+  Mean = 4.756
+  Std  = 0.024
+  Min  = 4.710
+  Max  = 4.790
+
+tcp_retransmissions
+  Mean = 154.500
+  Std  = 8.489
+  Min  = 144.000
+  Max  = 170.000
+
+packet_loss_percent
+  Mean = 0.800
+  Std  = 0.227
+  Min  = 0.556
+  Max  = 1.222
+
+rtt_avg_ms
+  Mean = 469.996
+  Std  = 7.849
+  Min  = 456.484
+  Max  = 477.264
+
+avg_prb_percent
+  Mean = 60.742
+  Std  = 0.633
+  Min  = 60.309
+  Max  = 61.649
+
+num_control_actions
+  Mean = 47.700
+  Std  = 0.483
+  Min  = 47.000
+  Max  = 48.000
+
+
